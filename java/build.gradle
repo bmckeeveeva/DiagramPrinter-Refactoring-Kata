@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+dependencies {
+    testImplementation libs.org.junit.jupiter.junit.jupiter.api
+    testImplementation libs.org.junit.jupiter.junit.jupiter.params
+    testImplementation libs.org.junit.jupiter.junit.jupiter.engine
+}
+
+group = 'org.codingdojo'
+version = '1.0.0-SNAPSHOT'
+description = 'DiagramPrinter-Refactoring-Kata'
+java.sourceCompatibility = JavaVersion.VERSION_17
